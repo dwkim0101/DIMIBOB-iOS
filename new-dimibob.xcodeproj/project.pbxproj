@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1288299624A8216300A69CB8 /* \.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288299524A8216300A69CB8 /* \.swift */; };
+		1288299824A8216300A69CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288299724A8216300A69CB8 /* SceneDelegate.swift */; };
+		1288299A24A8216300A69CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288299924A8216300A69CB8 /* ViewController.swift */; };
+		1288299D24A8216300A69CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1288299B24A8216300A69CB8 /* Main.storyboard */; };
+		1288299F24A8216400A69CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1288299E24A8216400A69CB8 /* Assets.xcassets */; };
+		128829A224A8216400A69CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128829A024A8216400A69CB8 /* LaunchScreen.storyboard */; };
+		128829AD24A8216400A69CB8 /* new_dimibobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128829AC24A8216400A69CB8 /* new_dimibobTests.swift */; };
+		128829B824A8216400A69CB8 /* new_dimibobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128829B724A8216400A69CB8 /* new_dimibobUITests.swift */; };
+		12BB674B24A9767E00ED44BC /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB674A24A9767E00ED44BC /* BreakfastViewController.swift */; };
+		12BB674F24A976A600ED44BC /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB674E24A976A600ED44BC /* DinnerViewController.swift */; };
+		12BB675224A976D200ED44BC /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB675124A976D200ED44BC /* LunchViewController.swift */; };
+		12D92CD324AADB3B00CAC252 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D92CD224AADB3B00CAC252 /* DateViewController.swift */; };
+		12D92CD524AAE26000CAC252 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D92CD424AAE26000CAC252 /* func.swift */; };
+		51B1E27B17425F5FC150F891 /* Pods_new_dimibob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F27C61916ED73D4FA040B4 /* Pods_new_dimibob.framework */; };
+		79EF557BFBD003290CC0CBBB /* Pods_new_dimibobTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDA20B28DDA94AC302A70DC /* Pods_new_dimibobTests.framework */; };
+		9504967644DB35D2C0D2A1FB /* Pods_new_dimibob_new_dimibobUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B5936241A961771CFB2E01 /* Pods_new_dimibob_new_dimibobUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128829A924A8216400A69CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1288298A24A8216300A69CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1288299124A8216300A69CB8;
+			remoteInfo = "new-dimibob";
+		};
+		128829B424A8216400A69CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1288298A24A8216300A69CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1288299124A8216300A69CB8;
+			remoteInfo = "new-dimibob";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F27C61916ED73D4FA040B4 /* Pods_new_dimibob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_new_dimibob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1288299224A8216300A69CB8 /* new-dimibob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new-dimibob.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1288299524A8216300A69CB8 /* \.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\\.swift"; sourceTree = "<group>"; };
+		1288299724A8216300A69CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1288299924A8216300A69CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1288299C24A8216300A69CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1288299E24A8216400A69CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128829A124A8216400A69CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128829A324A8216400A69CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128829A824A8216400A69CB8 /* new-dimibobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-dimibobTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		128829AC24A8216400A69CB8 /* new_dimibobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_dimibobTests.swift; sourceTree = "<group>"; };
+		128829AE24A8216400A69CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128829B324A8216400A69CB8 /* new-dimibobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-dimibobUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		128829B724A8216400A69CB8 /* new_dimibobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_dimibobUITests.swift; sourceTree = "<group>"; };
+		128829B924A8216400A69CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12BB674A24A9767E00ED44BC /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
+		12BB674E24A976A600ED44BC /* DinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
+		12BB675124A976D200ED44BC /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		12BB675824A9848700ED44BC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		12BB675A24A9848700ED44BC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		12D92CD224AADB3B00CAC252 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		12D92CD424AAE26000CAC252 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
+		15B5936241A961771CFB2E01 /* Pods_new_dimibob_new_dimibobUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_new_dimibob_new_dimibobUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F500DC0156970A76696355 /* Pods-new-dimibob-new-dimibobUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibob-new-dimibobUITests.release.xcconfig"; path = "Target Support Files/Pods-new-dimibob-new-dimibobUITests/Pods-new-dimibob-new-dimibobUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E5F8BFCC2596CB9C22713BC /* Pods-new-dimibob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibob.release.xcconfig"; path = "Target Support Files/Pods-new-dimibob/Pods-new-dimibob.release.xcconfig"; sourceTree = "<group>"; };
+		61A75C41096683AF633B7FD6 /* Pods-new-dimibobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibobTests.release.xcconfig"; path = "Target Support Files/Pods-new-dimibobTests/Pods-new-dimibobTests.release.xcconfig"; sourceTree = "<group>"; };
+		6233FEE8B2879D9644A0E2A7 /* Pods-new-dimibobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibobTests.debug.xcconfig"; path = "Target Support Files/Pods-new-dimibobTests/Pods-new-dimibobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A54FD0DBE681EFF7827AE26 /* Pods-new-dimibob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibob.debug.xcconfig"; path = "Target Support Files/Pods-new-dimibob/Pods-new-dimibob.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9520B5990E535017A28A2E /* Pods-new-dimibob-new-dimibobUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-new-dimibob-new-dimibobUITests.debug.xcconfig"; path = "Target Support Files/Pods-new-dimibob-new-dimibobUITests/Pods-new-dimibob-new-dimibobUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDA20B28DDA94AC302A70DC /* Pods_new_dimibobTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_new_dimibobTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1288298F24A8216300A69CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B1E27B17425F5FC150F891 /* Pods_new_dimibob.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829A524A8216400A69CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EF557BFBD003290CC0CBBB /* Pods_new_dimibobTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829B024A8216400A69CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9504967644DB35D2C0D2A1FB /* Pods_new_dimibob_new_dimibobUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1288298924A8216300A69CB8 = {
+			isa = PBXGroup;
+			children = (
+				1288299424A8216300A69CB8 /* new-dimibob */,
+				128829AB24A8216400A69CB8 /* new-dimibobTests */,
+				128829B624A8216400A69CB8 /* new-dimibobUITests */,
+				1288299324A8216300A69CB8 /* Products */,
+				57067A828DA813084E972359 /* Pods */,
+				D7B191CFA4D19DA8B7AEF5CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1288299324A8216300A69CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1288299224A8216300A69CB8 /* new-dimibob.app */,
+				128829A824A8216400A69CB8 /* new-dimibobTests.xctest */,
+				128829B324A8216400A69CB8 /* new-dimibobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1288299424A8216300A69CB8 /* new-dimibob */ = {
+			isa = PBXGroup;
+			children = (
+				12D92CD424AAE26000CAC252 /* func.swift */,
+				1288299924A8216300A69CB8 /* ViewController.swift */,
+				12BB675024A976AA00ED44BC /* MealViewController */,
+				1288299724A8216300A69CB8 /* SceneDelegate.swift */,
+				1288299524A8216300A69CB8 /* \.swift */,
+				1288299B24A8216300A69CB8 /* Main.storyboard */,
+				1288299E24A8216400A69CB8 /* Assets.xcassets */,
+				128829A024A8216400A69CB8 /* LaunchScreen.storyboard */,
+				128829A324A8216400A69CB8 /* Info.plist */,
+			);
+			path = "new-dimibob";
+			sourceTree = "<group>";
+		};
+		128829AB24A8216400A69CB8 /* new-dimibobTests */ = {
+			isa = PBXGroup;
+			children = (
+				128829AC24A8216400A69CB8 /* new_dimibobTests.swift */,
+				128829AE24A8216400A69CB8 /* Info.plist */,
+			);
+			path = "new-dimibobTests";
+			sourceTree = "<group>";
+		};
+		128829B624A8216400A69CB8 /* new-dimibobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128829B724A8216400A69CB8 /* new_dimibobUITests.swift */,
+				128829B924A8216400A69CB8 /* Info.plist */,
+			);
+			path = "new-dimibobUITests";
+			sourceTree = "<group>";
+		};
+		12BB675024A976AA00ED44BC /* MealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12D92CD224AADB3B00CAC252 /* DateViewController.swift */,
+				12BB674A24A9767E00ED44BC /* BreakfastViewController.swift */,
+				12BB675124A976D200ED44BC /* LunchViewController.swift */,
+				12BB674E24A976A600ED44BC /* DinnerViewController.swift */,
+			);
+			path = MealViewController;
+			sourceTree = "<group>";
+		};
+		57067A828DA813084E972359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A54FD0DBE681EFF7827AE26 /* Pods-new-dimibob.debug.xcconfig */,
+				5E5F8BFCC2596CB9C22713BC /* Pods-new-dimibob.release.xcconfig */,
+				AD9520B5990E535017A28A2E /* Pods-new-dimibob-new-dimibobUITests.debug.xcconfig */,
+				41F500DC0156970A76696355 /* Pods-new-dimibob-new-dimibobUITests.release.xcconfig */,
+				6233FEE8B2879D9644A0E2A7 /* Pods-new-dimibobTests.debug.xcconfig */,
+				61A75C41096683AF633B7FD6 /* Pods-new-dimibobTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7B191CFA4D19DA8B7AEF5CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F27C61916ED73D4FA040B4 /* Pods_new_dimibob.framework */,
+				15B5936241A961771CFB2E01 /* Pods_new_dimibob_new_dimibobUITests.framework */,
+				EEDA20B28DDA94AC302A70DC /* Pods_new_dimibobTests.framework */,
+				12BB675824A9848700ED44BC /* WidgetKit.framework */,
+				12BB675A24A9848700ED44BC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1288299124A8216300A69CB8 /* new-dimibob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128829BC24A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibob" */;
+			buildPhases = (
+				F1A553B9799C55D591F9985D /* [CP] Check Pods Manifest.lock */,
+				1288298E24A8216300A69CB8 /* Sources */,
+				1288298F24A8216300A69CB8 /* Frameworks */,
+				1288299024A8216300A69CB8 /* Resources */,
+				670958ED7FBF93A1F1B8E4D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new-dimibob";
+			productName = "new-dimibob";
+			productReference = 1288299224A8216300A69CB8 /* new-dimibob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128829A724A8216400A69CB8 /* new-dimibobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128829BF24A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibobTests" */;
+			buildPhases = (
+				4980CEF039CCC5C27D7C86F9 /* [CP] Check Pods Manifest.lock */,
+				128829A424A8216400A69CB8 /* Sources */,
+				128829A524A8216400A69CB8 /* Frameworks */,
+				128829A624A8216400A69CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128829AA24A8216400A69CB8 /* PBXTargetDependency */,
+			);
+			name = "new-dimibobTests";
+			productName = "new-dimibobTests";
+			productReference = 128829A824A8216400A69CB8 /* new-dimibobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128829B224A8216400A69CB8 /* new-dimibobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128829C224A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibobUITests" */;
+			buildPhases = (
+				20E1A48D43D5044C0D90B7E3 /* [CP] Check Pods Manifest.lock */,
+				128829AF24A8216400A69CB8 /* Sources */,
+				128829B024A8216400A69CB8 /* Frameworks */,
+				128829B124A8216400A69CB8 /* Resources */,
+				D65FE098E7AC5FAE21BD5787 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128829B524A8216400A69CB8 /* PBXTargetDependency */,
+			);
+			name = "new-dimibobUITests";
+			productName = "new-dimibobUITests";
+			productReference = 128829B324A8216400A69CB8 /* new-dimibobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1288298A24A8216300A69CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1288299124A8216300A69CB8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					128829A724A8216400A69CB8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1288299124A8216300A69CB8;
+					};
+					128829B224A8216400A69CB8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1288299124A8216300A69CB8;
+					};
+				};
+			};
+			buildConfigurationList = 1288298D24A8216300A69CB8 /* Build configuration list for PBXProject "new-dimibob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1288298924A8216300A69CB8;
+			productRefGroup = 1288299324A8216300A69CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1288299124A8216300A69CB8 /* new-dimibob */,
+				128829A724A8216400A69CB8 /* new-dimibobTests */,
+				128829B224A8216400A69CB8 /* new-dimibobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1288299024A8216300A69CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128829A224A8216400A69CB8 /* LaunchScreen.storyboard in Resources */,
+				1288299F24A8216400A69CB8 /* Assets.xcassets in Resources */,
+				1288299D24A8216300A69CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829A624A8216400A69CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829B124A8216400A69CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E1A48D43D5044C0D90B7E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-new-dimibob-new-dimibobUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4980CEF039CCC5C27D7C86F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-new-dimibobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670958ED7FBF93A1F1B8E4D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-new-dimibob/Pods-new-dimibob-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-new-dimibob/Pods-new-dimibob-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-new-dimibob/Pods-new-dimibob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D65FE098E7AC5FAE21BD5787 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-new-dimibob-new-dimibobUITests/Pods-new-dimibob-new-dimibobUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-new-dimibob-new-dimibobUITests/Pods-new-dimibob-new-dimibobUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-new-dimibob-new-dimibobUITests/Pods-new-dimibob-new-dimibobUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A553B9799C55D591F9985D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-new-dimibob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1288298E24A8216300A69CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BB674F24A976A600ED44BC /* DinnerViewController.swift in Sources */,
+				12D92CD524AAE26000CAC252 /* func.swift in Sources */,
+				1288299A24A8216300A69CB8 /* ViewController.swift in Sources */,
+				12D92CD324AADB3B00CAC252 /* DateViewController.swift in Sources */,
+				1288299624A8216300A69CB8 /* \.swift in Sources */,
+				12BB675224A976D200ED44BC /* LunchViewController.swift in Sources */,
+				12BB674B24A9767E00ED44BC /* BreakfastViewController.swift in Sources */,
+				1288299824A8216300A69CB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829A424A8216400A69CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128829AD24A8216400A69CB8 /* new_dimibobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128829AF24A8216400A69CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128829B824A8216400A69CB8 /* new_dimibobUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128829AA24A8216400A69CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1288299124A8216300A69CB8 /* new-dimibob */;
+			targetProxy = 128829A924A8216400A69CB8 /* PBXContainerItemProxy */;
+		};
+		128829B524A8216400A69CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1288299124A8216300A69CB8 /* new-dimibob */;
+			targetProxy = 128829B424A8216400A69CB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1288299B24A8216300A69CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1288299C24A8216300A69CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128829A024A8216400A69CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128829A124A8216400A69CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128829BA24A8216400A69CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		128829BB24A8216400A69CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128829BD24A8216400A69CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A54FD0DBE681EFF7827AE26 /* Pods-new-dimibob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibob/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkim.dimibob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128829BE24A8216400A69CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5F8BFCC2596CB9C22713BC /* Pods-new-dimibob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibob/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielkim.dimibob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		128829C024A8216400A69CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6233FEE8B2879D9644A0E2A7 /* Pods-new-dimibobTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibobTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielkim.new-dimibobTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/new-dimibob.app/new-dimibob";
+			};
+			name = Debug;
+		};
+		128829C124A8216400A69CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A75C41096683AF633B7FD6 /* Pods-new-dimibobTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibobTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielkim.new-dimibobTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/new-dimibob.app/new-dimibob";
+			};
+			name = Release;
+		};
+		128829C324A8216400A69CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9520B5990E535017A28A2E /* Pods-new-dimibob-new-dimibobUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibobUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielkim.new-dimibobUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "new-dimibob";
+			};
+			name = Debug;
+		};
+		128829C424A8216400A69CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F500DC0156970A76696355 /* Pods-new-dimibob-new-dimibobUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JC8F47V82;
+				INFOPLIST_FILE = "new-dimibobUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielkim.new-dimibobUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "new-dimibob";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1288298D24A8216300A69CB8 /* Build configuration list for PBXProject "new-dimibob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128829BA24A8216400A69CB8 /* Debug */,
+				128829BB24A8216400A69CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128829BC24A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128829BD24A8216400A69CB8 /* Debug */,
+				128829BE24A8216400A69CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128829BF24A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128829C024A8216400A69CB8 /* Debug */,
+				128829C124A8216400A69CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128829C224A8216400A69CB8 /* Build configuration list for PBXNativeTarget "new-dimibobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128829C324A8216400A69CB8 /* Debug */,
+				128829C424A8216400A69CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1288298A24A8216300A69CB8 /* Project object */;
+}
